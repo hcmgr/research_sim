@@ -1,0 +1,12 @@
+Scenario X
+Width:5
+Height:5
+Seed:0
+=====
+LLLLS
+LLSSO
+LLSOO
+LLSSS
+LLLLL
+=====
+Fauna-SMALL-1,1-LAND
