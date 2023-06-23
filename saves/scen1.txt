@@ -10,3 +10,4 @@ LLSSS
 LLLLL
 =====
 Fauna-SMALL-1,1-LAND
+Fauna-LARGE-1,2-LAND

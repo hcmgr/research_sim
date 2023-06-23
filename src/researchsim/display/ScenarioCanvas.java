@@ -215,7 +215,7 @@ public class ScenarioCanvas extends Canvas {
 
         GraphicsContext gc = getGraphicsContext2D();
 
-        gc.setFill(Color.ALICEBLUE);
+        gc.setFill(Color.PURPLE);
         gc.fillRect(0, 0, getWidth(), getHeight());
         drawGrid();
         drawLastEvent();
@@ -318,9 +318,9 @@ public class ScenarioCanvas extends Canvas {
             Event event = events.get(index);
             Color c = Color.BLACK;
             if (event instanceof MoveEvent) {
-                c = Color.AQUA;
+                c = Color.BLUE;
             } else if (event instanceof CollectEvent) {
-                c = Color.MAROON;
+                c = Color.AQUAMARINE;
             } else {
                 easterEgg();
             }

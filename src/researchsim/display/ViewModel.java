@@ -39,7 +39,7 @@ public class ViewModel {
     /**
      * Whether the canvas grid coordinates is shown
      */
-    private final BooleanProperty showCoordinate = new SimpleBooleanProperty(true);
+    private final BooleanProperty showCoordinate = new SimpleBooleanProperty(false);
 
     /**
      * Contents of entities information text box
