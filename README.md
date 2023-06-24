@@ -2,6 +2,8 @@
 
 This Java desktop application allows researchers to simulate the observation and collection of flora/fauna in different habitats. It provides an interactive graphical user interface (GUI) built with JavaFX, enabling researchers to conduct simulations easily.
 
+![Research Simulation](assets/game_screenshot.png)
+
 ## Usage
 
 1. Clone the repository to your local machine:
@@ -22,7 +24,7 @@ saves/{your_scene_file}
 ```
 
 where:
-- 'your_scene_file' is the scene .txt file you wish to load into the simulation (see Scene File Format)
+- 'your_scene_file' is the .txt file you wish to load into the simulation (see Scene File Format)
 - NOTE: scen1.txt and scen2.txt already provided for testing/experimentation
 
 4. Run Launcher.java
@@ -46,7 +48,7 @@ where:
         - Map - (See examples)
         - Entity - (See examples)
 
-Example scene (saves/scen2.txt)
+Example scene (saves/large_scene.txt)
 ```
 Scenario X
 Width:10
