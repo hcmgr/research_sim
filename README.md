@@ -23,9 +23,53 @@ saves/{your_scene_file}
 
 where:
 - 'your_scene_file' is the scene .txt file you wish to load into the simulation (see Scene File Format)
+- NOTE: scen1.txt and scen2.txt already provided for testing/experimentation
 
 4. Run Launcher.java
 
 ## Scene File Format ##
+```
+ {ScenarioName}
+ Width:{Width}
+ Height:{Height}
+ Seed:{Seed}
+ {Separator}
+ {map}
+ {Separator}
+ {entity}
+ {entity...}
+```
+    where:
+        - 5 <= Width,Height <= 15
+        - seed > 0
+        - Separator - '=' * Width (eg: Width 5 -> =====)
+        - Map - (See examples)
+        - Entity - (See examples)
 
-
+Example scene (saves/scen2.txt)
+```
+Scenario X
+Width:10
+Height:10
+Seed:1
+==========
+LLLLLLLLLL
+LLLLLLLLLL
+LLLLLLLLLL
+LLLLLLLLLL
+LLLLLLLLLL
+LLLLLLLLLL
+SSSSSSSSSS
+OOOOOOOOOO
+OOOOOOOOOO
+OOOOOOOOOO
+==========
+Fauna-SMALL-9,9-OCEAN
+Fauna-LARGE-2,8-OCEAN
+Fauna-LARGE-0,0-LAND
+Fauna-GIANT-4,3-LAND
+Fauna-MEDIUM-8,8-OCEAN
+Fauna-MEDIUM-5,1-LAND
+Fauna-SMALL-9,1-LAND
+User-7,4-Bob
+```
