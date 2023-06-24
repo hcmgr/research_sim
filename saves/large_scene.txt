@@ -21,4 +21,8 @@ Fauna-GIANT-4,3-LAND
 Fauna-MEDIUM-8,8-OCEAN
 Fauna-MEDIUM-5,1-LAND
 Fauna-SMALL-9,1-LAND
+Flora-SMALL-5,5
+Flora-MEDIUM-7,3
+Flora-LARGE-2,4
+Flora-GIANT-1,2
 User-7,4-Bob
